@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+.container{
+  width: 350px;
+  height: 10cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px  5px 10px  lightgrey;
+  border: 1px solid grey;
+}
+
+
+.info{
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+
+ol{
+  width: 100%;
+  text-align: center;
+}
+
+
+ol li{
+  font-size: 15px;
+  font-weight: 600;
+  color: seagreen;
+}
+
+button{
+  width: 2.8cm;
+  height: 1.2cm;
+  color: white;
+  background-color: royalblue;
+  border: 1.2px solid royalblue;
+  border-radius: 4px;
+}
+
+
+.container > h2{
+  color: red;
+}
